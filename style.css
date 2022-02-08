@@ -1,15 +1,60 @@
+*{
+ font-family: 'Montserrat', sans-serif;
+}
+
 .title-principal{
 color: #F04500;
-font-size: 24px;
+font-weight:700;
+font-size: 32px;
 }
 
 
 .subtitle{
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
     color: #212F65;
-    font: size 59px;
+    font-size: 59px;
 }
 
 
 .text-info{
 color: #60607A;
+font-weight:400;
+font-size: 23px;
+}
+
+.img-box{
+    width: 500px;
+    height: 500px;
+}
+.botton{
+    background-color: #F04500;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 25px;
+}
+
+.list{
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px ;
+}
+
+.list-ol{
+    background-color: #30B6D9;
+    color: #ffffff;
+}
+
+.list-ul{
+    background-color: #FCBE1D;
+    color: #000000;
+}
+
+.text-ul{
+  color: #f20000;  
 }
